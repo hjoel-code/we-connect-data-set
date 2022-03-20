@@ -33,3 +33,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+server/config.json
+server/sentences.json
+.env
