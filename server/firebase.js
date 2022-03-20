@@ -3,7 +3,7 @@ require('dotenv').config()
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("./config.json");
+var serviceAccount = JSON.parse(process.env.FIREBASE_CONFIG)
 
 if (admin.apps.length === 0) {
   admin.initializeApp({
