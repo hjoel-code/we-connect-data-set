@@ -37,3 +37,5 @@ yarn-error.log*
 server/config.json
 server/sentences.json
 .env
+
+setData.js

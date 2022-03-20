@@ -127,13 +127,7 @@ export async function getServerSideProps(context) {
     console.log(error.message)
   }
 
-  // try {
-  //   const response = await fetch(`${process.env.ORIGIN_URL}/api/setData`)
-  //   const data = await response.json()
-  //   props = data
-  // } catch (error) {
-  //   console.log(error.message)
-  // }
+  
   return {
     props
   }
